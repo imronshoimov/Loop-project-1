@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+body {
+	background-color: #16A085;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.wheels-category {
+	display: flex;
+	justify-content: center;
+	padding: 150px 0; 
+}
+
+.wheels-backimage {
+	background-color: white;
+	width: 700px;
+	height: 500px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.5);
+	background-image: url("img/bicycle.png");
+	background-repeat: no-repeat;
+	background-position-y: 200px;
+	background-size: cover;
+}
+
+.sub-text {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 50px 90px;
+}
+
+.title-name {
+	text-transform: capitalize;
+}
+
+.button {
+	border-radius: 50%;
+	border: 1px solid rgba(128, 128, 128, 0.5);
+	width: 45px;
+	height: 45px;
+	background-color: white;
+}
+
+.button:hover {
+	  box-shadow: 0 0 10px rgba(128, 128, 128, 0.5);
+}
+
+.title-text {
+	color: rgba(128, 128, 128, 0.5);
+	margin-top: 10px;
+}
+
+.list-box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 30px 90px;
+}
+
+.list-item-1 {
+	font-size: 18px;
+	line-height: 3em;
+}
+
+.list-item-2 {
+	font-size: 18px;
+	line-height: 3em;
+	font-weight: bold;
+}
+
+.list-item_1 {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #464646;
+	margin-top: 15px;
+}
+
+.list-item_2 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 15px;
+}
